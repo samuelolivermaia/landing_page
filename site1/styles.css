@@ -5,21 +5,67 @@ body {
     box-sizing: border-box;
 }
 
-.contaneir {
+.container1 {
     display: flex;
-    align-items: center;    
+    align-items: center;   
+    padding: 0px 20px; 
+    margin-right: 20px;
+    font-size: 15px;
 }
 
 header {
+    flex-flow: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 20px 50px;
+    padding: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
-h1 {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    
+}
+
+.imgheader {
+    width: 30%;
+    height: 200px;
+    justify-self: end;
+    background-size: cover;
+    background-image: url(https://media.gettyimages.com/id/1247073860/pt/foto/healthy-fresh-organic-vegetables-in-a-crate-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jfCyVdbE3Vkkg624WHStrVM5h4rBwlZOGTaG6BSXXHQ=);
+}
+
+.contact-us1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.contactheader ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.contactheader{
+    padding: 5px 300px;
+}
+
+
+.h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 40px;
     .cor1{
         color: #1bb940;
         margin: 0%;
@@ -47,6 +93,7 @@ header nav ul li a {
     color: #333;
     font-weight: bold;
 }
+
 
 .contact-us {
     padding: 50px 20px;
